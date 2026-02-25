@@ -1,15 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>DressDash App</title>
-  <link rel="stylesheet" href="style.css">
+<title>FAST FIT</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <h1>DressDash – Dress Delivery App</h1>
-  <button onclick="order()">Order Now</button>
+<div class="navbar">
+<h2>FAST FIT</h2>
 
-  <script src="script.js"></script>
+<div>
+<button onclick="openLogin()">Login</button>
+<button onclick="viewCart()">Cart (<span id="cart-count">0</span>)</button>
+</div>
+
+</div>
+
+<h1 class="title">15-Minute Dress Delivery</h1>
+
+<div class="container">
+
+<div class="card">
+<img src="https://i.imgur.com/3QZQZ9M.png">
+<h3>T-Shirt</h3>
+<p>₹499</p>
+<button onclick="addToCart('T-Shirt')">Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/9z3s6QH.png">
+<h3>Jeans</h3>
+<p>₹999</p>
+<button onclick="addToCart('Jeans')">Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/VYyR3QX.png">
+<h3>Jacket</h3>
+<p>₹1499</p>
+<button onclick="addToCart('Jacket')">Add to Cart</button>
+</div>
+
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>

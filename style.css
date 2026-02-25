@@ -1,0 +1,62 @@
+body {
+font-family: Arial;
+margin: 0;
+background-image: 
+url(https://antdisplay.com/Ideas/how-to-open-a-clothing-shop-with-low-budget/);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.navbar {
+background: #e23744;
+color: white;
+padding: 15px;
+display: flex;
+justify-content: space-between;
+}
+
+.navbar button {
+background: white;
+color: #e23744;
+border: none;
+padding: 8px 15px;
+margin-left: 10px;
+cursor: pointer;
+}
+
+.title {
+text-align: center;
+margin-top: 20px;
+}
+
+.container {
+display: flex;
+justify-content: center;
+gap: 30px;
+margin-top: 30px;
+flex-wrap: wrap;
+}
+
+.card {
+background: rgb(192, 22, 22);
+padding: 20px;
+border-radius: 10px;
+width: 200px;
+text-align: center;
+box-shadow: 0 0 10px rgba(28, 148, 179, 0.1);
+}
+
+.card img {
+width: 150px;
+height: 150px;
+}
+
+.card button {
+background: #c59309;
+color: white;
+border: none;
+padding: 10px;
+margin-top: 10px;
+cursor: pointer;
+}
